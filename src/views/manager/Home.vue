@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- 头部图片 -->
-    <header class="header">
+    <header class="header" >
       <img src="../../assets/home.jpg" alt="">
     </header>
    <!-- 内容区域 -->
@@ -68,7 +68,7 @@ export default {
     //加载产品信息
     loadProducts(){
       let url="/product/query";
-      let params={page:0,pageSize:10,}
+      let params={page:0,pageSize:20,}
       post(url,params).then((response)=>{
         this.products=response.data.list;
       })
@@ -81,7 +81,7 @@ export default {
   padding-bottom: 50px;
 }
 .header {
-  height: 300px;
+  height: 180px;
   overflow: hidden;
 }
 .header img {

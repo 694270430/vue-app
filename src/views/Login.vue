@@ -1,10 +1,10 @@
 <template>
   <div class="login">
     <div class="header">
-      <div class="logo">家</div>
+      <div class="logo">LOL</div>
       <div class="title">
-        家政服务云平台
-        <span style="font-size:.8em">顾客端</span>
+        LOL网络商城服务平台
+        <span style="font-size:.8em">玩家端</span>
       </div>
     </div>
     <div class="form">
@@ -61,7 +61,7 @@ export default {
   height: 140px;
   padding: 50px;
   color: #ffffff;
-  background-color: #1659a0;
+  background-color: #df2ed6;
   text-align: center
 }
 .header .logo {

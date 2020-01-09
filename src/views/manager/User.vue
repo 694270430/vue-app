@@ -38,7 +38,7 @@ export default {
 .header {
   padding-top: 46px;
   text-align: center;
-  background: #1659a0;
+  background: #32e6ec;
   margin-bottom: 2em;
 }
 
